@@ -401,3 +401,127 @@ nav ul li a:hover {
     }
 
 }
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+
+    header {
+        position: fixed;
+        background: #fff;
+        width: 100%;
+        z-index: 30;
+    }   
+
+    .container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+
+    .server {
+        width: 70%;
+        margin: 15em auto 14em 30%;
+    }
+
+    .logo {
+        width: 350px;
+        height: 150px;
+        margin-left: 5%;
+    }
+
+    .menu {
+        width: 80px;
+        padding-right: 40px;;
+    }
+
+    .subhead {
+        font-size: 28px;
+        margin-top: 130px;
+        padding: 10px 80px 10px 80px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .scroll {
+        margin-bottom: 150px;
+        width: 4%;
+    }
+
+   
+    .blue-container img {
+        width: 20%;
+    }
+
+    .blue-container ul li:nth-child(3) img {
+        width: 10%;
+        margin-top: -6px;
+    }
+
+    .blue-container ul {
+        display: block;
+        margin-top: -1em;
+        align-items: center;
+    }
+
+    .blue-container ul li {
+        margin: 80px;
+        margin-bottom: 100px;
+    }
+
+    .blue-container ul li p {
+        padding: 0 .8em;
+    }
+
+    .gray-container ul {
+        display: block;
+        padding-bottom: 90px;
+     }
+
+     figure img {
+         width: 20%;
+     }
+
+     h2 {
+         font-size: 50px;
+         margin-top: 15%;
+         margin-bottom: 15%;
+     }
+
+     .cta {
+         width: 580px;
+         height: 80px;
+         font-size: 60px;
+     }
+
+    .footer-links {
+        font-size: 40px;
+        padding-bottom: 80px;
+    }
+
+    footer {
+        margin-top: 150px;
+    }
+
+
+    nav ul li a {
+        font-size: 40px;
+
+    }
+
+    .exit-btn {
+        padding-top: 50px;
+        margin-right: 50px;
+        margin-bottom: 60px;
+        text-align: right;
+    }
+    
+    .exit-btn img {
+        width: 40px;
+        cursor: pointer;
+    }
+
+    
+
+}
